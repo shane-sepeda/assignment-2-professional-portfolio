@@ -29,8 +29,9 @@ THEN I am taken to that deployed application
 THEN I am presented with a responsive layout that adapts to my viewport
 
 # Assets
-
+page logo (./assets/images/page_logo.png)
 # Repository
 
 
 # Deployed webpage
+

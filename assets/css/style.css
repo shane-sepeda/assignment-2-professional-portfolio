@@ -9,6 +9,7 @@ body {
     background-color:rgb(113, 143, 153);
 }
 
+/* Header Styling */
 header {
     display: flex;
     justify-content: space-between;
@@ -43,7 +44,9 @@ header a {
     color: black;
     margin: 3px;
 }
+/* End Header Styling */
 
+/* Hero Styling */
 .hero {
     height: 300px;
     width: 100%;
@@ -60,7 +63,9 @@ header a {
     right: 0;
     top: 333px;
 }
+/* Eng Hero Styling */
 
+/* Border Styling */
 .border {
     border-width: 3px;
     border-color: rgba(0, 0, 0, 0.582);
@@ -68,45 +73,103 @@ header a {
     padding: 10px;
     display: flex;
     background-color: rgb(189, 189, 189);
+    text-align: center;
+}
+/* End Border Styling */
+
+/* Segment Styling */
+.segment {
+    font-size: 25px;
+    margin-bottom: 35px;
+    padding: 0 20px 0 0;
+    display: inline-block;
+    border-right: 3px solid;
 }
 
-.secondary-border {
-    border-width: 3px;
-    border-color: rgba(0, 0, 0, 0.582);
-    border-style: groove;
-    /* padding: 10px; */
-    background-color: rgb(189, 189, 189);
+.segment h2 {
+    text-align: center;
 }
 
-.about-section {
-    width: 900px;
-    overflow: auto;
+.segment div {
+    padding: 30px;
+    margin: 30px;
 }
 
-.work-section {
+.segment img {
+    float: left;
+}
+/* End Segment Styling */
 
+/* Portfolio Styling */
+.project-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  
+.project-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
+    background: #13293d;
+    color: #fff;
 }
 
-/* .contact-section {
+.project {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.project header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+}
+
+.project img {
+    width: 100%;
+    min-width: 400px;
+    max-height: 400px;
+}
+/* End Portfolio Styling */
+
+/* Contact Styling */
+.contact div {
+    display: flex;
     padding-top: 15px;
     margin-right: 20px;
+    float: right;
     font-size: 20px;
 }
 
-.contact-section h2 {
-    float: left;
-}
-
-.contact-section li {
+.contact ul li {
     display: inline-block;
-    margin: 5px;
+    margin: 15px;
     list-style-type: none;
     align-items: center;
-    float: right;
-} */
+}
 
+.contact a {
+    font: bolder;
+    color: black;
+    margin: 3px;
+}
+
+.contact-img {
+    float: right;
+    size: 100px;
+}
+/* End Contact Styling */
+
+/* Footer Styling */
 footer {
     position: static;
-    padding: 2px;
+    padding: 40px;
     text-align: center;
+    font-size: small;
 }
+/* End Footer Styling */

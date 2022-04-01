@@ -109,11 +109,13 @@ header a {
   
 .project-header {
     display: flex;
+    text-align:center;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 60px;
-    background: #13293d;
+    background-color:rgb(45, 60, 65);
     color: #fff;
+    width: 100px;
 }
 
 .project {
@@ -125,9 +127,10 @@ header a {
 }
 
 .project header {
-    padding: 20px;
-    background: #13293d;
+    padding: 30px;
+    background:rgb(45, 60, 65);
     color: #fff;
+    text-align: center;
 }
 
 .project img {
@@ -138,6 +141,11 @@ header a {
 /* End Portfolio Styling */
 
 /* Contact Styling */
+.contact {
+    padding: 10px;
+    text-align: center;
+}
+
 .contact div {
     display: flex;
     padding-top: 15px;
@@ -148,7 +156,7 @@ header a {
 
 .contact ul li {
     display: inline-block;
-    margin: 15px;
+    margin: 25px;
     list-style-type: none;
     align-items: center;
 }
@@ -156,12 +164,7 @@ header a {
 .contact a {
     font: bolder;
     color: black;
-    margin: 3px;
-}
-
-.contact-img {
-    float: right;
-    size: 100px;
+    margin: 25px;
 }
 /* End Contact Styling */
 
@@ -171,5 +174,6 @@ footer {
     padding: 40px;
     text-align: center;
     font-size: small;
+    background-color: rgb(45, 60, 65);
 }
 /* End Footer Styling */
